@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css"> <!-- resets all to 0, for cross-browsing needs -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/borders.css"> <!-- just for demonstration, delete when real developement -->
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="navbar-logo"><img src="img/sampleLogo.jpg" alt="Logo"></div>
+                <div class="navbar-hamburger"> <!-- will be shown when screen width less then 1200px -->
+                    <div class="navbar-hamburger__line"></div>
+                    <div class="navbar-hamburger__line"></div>
+                    <div class="navbar-hamburger__line"></div>
+                </div>
+                <div class="navbar-elements"> <!-- whole block will be hidden when screen width less then 1200px -->
+                    <div class="navbar-element"><a class="navbar-element__link" href="#">Lorem, ipsum dolor.</a></div>
+                    <div class="navbar-element"><a class="navbar-element__link" href="#">Accusantium, iste labore.</a></div>
+                    <div class="navbar-element"><a class="navbar-element__link" href="#">Labore, quo aperiam.</a></div>
+                    <div class="navbar-element"><button class="navbar-element__button" href="#">button!</button></div>
+                    <div class="navbar-element"><input class="navbar-element__text" type="text" name="navbar-text" id="navbar-text" placeholder="This is a text input"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section>Section 1</section>
+            <section>Section 2</section>
+            <section>...</section>
+            <section>...</section>
+            <section>Section N</section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content-blocks">
+                <div class="footer-content"></div>
+                <div class="footer-content"></div>
+                <div class="footer-content"></div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
