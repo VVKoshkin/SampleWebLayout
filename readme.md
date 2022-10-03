@@ -3,4 +3,4 @@
 # Developed by V.Koshkin, Russia, Moscow
 # Version 1.0 functionality: navbar (logo, hamburger, in-hamburger elements), sections, footer
 # In case someone'll use it, please delete line with css/borders.css linking
-# Cause this file was made just for demonstating
+# Cause this file was made just for demonstrating
