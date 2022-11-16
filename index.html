@@ -6,10 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document sample</title>
+    <!-- Roboto Font (mostly popular) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/reset.css"> <!-- resets all to 0, for cross-browsing needs -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
-    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/borders.css"> <!-- just for demonstration, delete when real developement -->
 </head>
 
@@ -26,14 +30,20 @@
                 </div>
                 <div class="navbar-elements">
                     <!-- whole block will be hidden when screen width less then 1200px -->
-                    <div class="navbar-element"><a class="navbar-element__link" href="#">This is a link sample</a></div>
+                    <div class="navbar-element">
+                        <a class="navbar-element__link" href="#">This is a link sample</a>
+                    </div>
                     <div class="navbar-element">
                         <p class="navbar-element__paragraph">This is a paragraph sample</a>
                     </div>
                     <div class="navbar-element"><button class="navbar-element__button" href="#">This is a button
                             sample</button></div>
-                    <div class="navbar-element"><input class="navbar-element__textbox" type="text" name="navbar-textbox"
-                            id="navbar-textbox" placeholder="This is a text input"></div>
+                    <div class="navbar-element">
+                        <input class="navbar-element__textbox" type="text" name="navbar-textbox" id="navbar-textbox"
+                            placeholder="This is a text input">
+                    </div>
+                    <div class="navbar-element"><a href="#" class="navbar-element__link"><img
+                                class="navbar-element__icon" src="img/vk.png" alt=""></a></div>
                 </div>
             </div>
         </div>

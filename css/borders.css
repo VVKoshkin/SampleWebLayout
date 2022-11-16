@@ -15,8 +15,9 @@
 }
 
 section {
-    height: 600px;
     border: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 div {
@@ -29,11 +30,9 @@ div {
 
 .footer-content-blocks {
     border: 1px solid black;
-    height: 100px;
 }
 
 .footer-content {
     border: 1px solid black;
-    height: 50px;
     flex-grow: 1;
 }
